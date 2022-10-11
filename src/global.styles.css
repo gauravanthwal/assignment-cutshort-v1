@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+.app {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.primary-bg {
+  background-color: #654DE4;
+}
+
+
+.checked-icon {
+  width: 70px;
+  height: 70px;
+  border: 1px solid #654DE4;
+  border-radius: 50%;
+  background-color: #654DE4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.checked-icon svg {
+  width: 30px;
+  height: 30px;
+}
+
+.center-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+}

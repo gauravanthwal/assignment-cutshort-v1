@@ -1,0 +1,94 @@
+.multi-form-container {}
+
+.multi-form-container .title {
+    font-size: 26px;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 4rem;
+
+}
+
+.multi-form-container .label {
+    font-size: 16px;
+    text-align: center;
+    font-weight: 200;
+    color: #aaa;
+    margin: 0;
+    margin-bottom: 2rem;
+}
+
+.form {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.input-container label {
+    text-align: left;
+    color: #202020;
+}
+
+.input-container label span {
+    color: #aaa;
+}
+
+.input-container {
+    margin-top: .8rem;
+}
+
+.input input {
+    border: 1px solid #bbb;
+    outline: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    padding: .5rem;
+    margin-top: 3px;
+    width: 282px;
+}
+
+.mt-1 {
+    margin-top: 0;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.radio-div {
+    width: 140px;
+    box-sizing: border-box;
+    border: 2px solid #ddd;
+    padding: 1rem .5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.radio-div .content h4,
+p {
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.content h4 {
+    color: #3a3939;
+}
+
+.content p {
+    color: #7a7979;
+}
+
+.radio-div .icon-container .user-icons {
+    color: #3a3939;
+    width: 25px;
+}
+
+.radio-div .icon-container .user-icons.active {
+    color: #654DE4;
+}
+
+.radio-div.active {
+    border: 2px solid #654DE4;
+}
